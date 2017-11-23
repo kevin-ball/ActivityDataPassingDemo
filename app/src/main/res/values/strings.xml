@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActivityDataPassingDemo</string>
+    <string name="GameRules">Welcome to the Dice Rolling Game. Your goal is to beat the system random number by rolling two die.</string>
+</resources>
