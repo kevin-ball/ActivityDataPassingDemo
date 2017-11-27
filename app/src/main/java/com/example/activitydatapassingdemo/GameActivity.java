@@ -44,13 +44,12 @@ public class GameActivity extends AppCompatActivity {
         int playerRandom = random.nextInt(11) + 2;
         if (playerRandom > gameRandom) {
             winCount++;
-            tvResult.setText("Your number is " + playerRandom + ". You Win!  Win count: " + winCount + " Lose count: " + loseCount);
+            tvResult.setText("Your number is " + playerRandom + ". You Win!  \nWin count: " + winCount + " Lose count: " + loseCount);
         } else if (playerRandom < gameRandom) {
             loseCount++;
-            tvResult.setText("Your number is " + playerRandom + ". You Lose  Win count: " + winCount + " Lose count: " + loseCount);
+            tvResult.setText("Your number is " + playerRandom + ". You Lose  \nWin count: " + winCount + " Lose count: " + loseCount);
         } else {
-            tvResult.setText("Your number is " + playerRandom + ". It's a Tie  Win count: " + winCount + " Lose count: " + loseCount);
+            tvResult.setText("Your number is " + playerRandom + ". It's a Tie  \nWin count: " + winCount + " Lose count: " + loseCount);
         }
-
     }
 }

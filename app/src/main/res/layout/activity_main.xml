@@ -38,11 +38,23 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="Play Game"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:onClick="onClickPlay"/>
 
+    <Button
+        android:id="@+id/btnBet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Bet Money"
+        android:textSize="20sp"
+        android:onClick="onClickBet"/>
+
+    
     <TextView
         android:id="@+id/tvResultDisplay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Result"
+        android:textSize="20sp" />
 </LinearLayout>
